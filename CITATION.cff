@@ -3,6 +3,7 @@ message: "If you use these data, models or code, please cite them as below."
 title: "VTS-Screen: web tool, data, trained models and code for machine learning of ammonia removal and mass transfer in vacuum thermal stripping"
 type: software
 version: 1.0.0
+doi: 10.5281/zenodo.23446948
 date-released: 2026-10-18
 license: [MIT, CC-BY-4.0]
 repository-code: "https://github.com/SaifLearn0/vts-screening-tool"
