@@ -1,0 +1,40 @@
+{
+  "library": "catboost",
+  "catboost_version": "1.2.10",
+  "hyperparameters": "library defaults (iterations=1000, depth=6, learning_rate=auto)",
+  "random_seed": 42,
+  "feature_order": [
+    "T",
+    "Pv",
+    "pH",
+    "t"
+  ],
+  "feature_units": {
+    "T": "degC",
+    "Pv": "kPa",
+    "pH": "-",
+    "t": "min"
+  },
+  "models": {
+    "eta": {
+      "files": [
+        "catboost_eta.cbm",
+        "catboost_eta.json"
+      ],
+      "target_unit": "%",
+      "n_training_records": 218,
+      "training_data": "data/ammonia_efficiency_subset_cleaned.xlsx (complete subset)",
+      "tree_count": 1000
+    },
+    "KLa": {
+      "files": [
+        "catboost_KLa.cbm",
+        "catboost_KLa.json"
+      ],
+      "target_unit": "h^-1",
+      "n_training_records": 159,
+      "training_data": "data/KL_a_subset_cleaned.xlsx (complete subset)",
+      "tree_count": 1000
+    }
+  }
+}
