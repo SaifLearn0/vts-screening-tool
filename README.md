@@ -54,11 +54,9 @@ No server, no installation, and no data leaves the page. The JavaScript
 evaluator was verified against the Python CatBoost models across all
 377 records (maximum absolute difference 2.3 × 10⁻⁶ for η and
 3.1 × 10⁻⁸ for K_La).
+   ## Data, models and code
+   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23446948.svg)](https://doi.org/10.5281/zenodo.23446948)
 
+   The compiled datasets, trained CatBoost models and analysis notebooks are archived on Zenodo. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
 Citation
 
-Citation details will be added once the associated manuscript is published.
-
-License
-
-MIT
