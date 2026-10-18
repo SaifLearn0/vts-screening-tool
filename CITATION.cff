@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use these data, models or code, please cite them as below."
+title: "VTS-Screen: web tool, data, trained models and code for machine learning of ammonia removal and mass transfer in vacuum thermal stripping"
+type: software
+version: 1.0.0
+date-released: 2026-10-18
+license: [MIT, CC-BY-4.0]
+repository-code: "https://github.com/SaifLearn0/vts-screening-tool"
+url: "https://saiflearn0.github.io/vts-screening-tool/"
+authors:
+  - family-names: Rahman
+    given-names: Saif Ul
+    affiliation: University of Science and Technology Beijing
+  - family-names: Guo
+    given-names: Shaomin
+    affiliation: University of Science and Technology Beijing
+  - family-names: Rony
+    given-names: Md Rakib Hasan
+    affiliation: University of Science and Technology Beijing
+  - family-names: Qiu
+    given-names: Xiaojian
+    affiliation: University of Science and Technology Beijing
+  - family-names: Li
+    given-names: Zifu
+    affiliation: University of Science and Technology Beijing
+    email: zifuli@ustb.edu.cn
+keywords:
+  - vacuum thermal stripping
+  - ammonia recovery
+  - machine learning
+  - CatBoost
+  - mass-transfer coefficient
+  - KLa
+  - SHAP

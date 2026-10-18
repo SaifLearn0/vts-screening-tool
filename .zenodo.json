@@ -1,0 +1,48 @@
+{
+  "title": "VTS-Screen: web tool, data, trained models and code for machine learning of ammonia removal and mass transfer in vacuum thermal stripping",
+  "upload_type": "software",
+  "description": "<p>Data, trained models and analysis code supporting the manuscript <em>From Published Experiments to a Web-Based Prediction Tool: Machine Learning of Ammonia Removal and Mass Transfer in Vacuum Thermal Stripping</em> (Rahman, Guo, Rony, Qiu, Li).</p><ul><li><b>index.html</b>: the VTS-Screen browser-based prediction tool (CatBoost models embedded, runs client-side).</li><li><b>data/</b>: compiled vacuum thermal stripping (VTS) database from six peer-reviewed studies; removal-efficiency (η) subset, n = 218, and volumetric mass-transfer coefficient (K<sub>L</sub>a) subset, n = 159; inputs T, P<sub>v</sub>, pH, t (xlsx + csv).</li><li><b>models/</b>: CatBoost champion models (library defaults, seed 42) refitted on the complete subsets, as deployed in the VTS-Screen web tool (.cbm and .json).</li><li><b>notebooks/</b>: model comparison of 11 algorithms (Taylor diagrams), 10×10 repeated cross-validation with the Nadeau–Bengio corrected resampled t-test and Holm adjustment, CatBoost convergence and bootstrap plateau test, SHAP interpretation and partial-dependence surfaces.</li><li><b>results/</b>: ranking tables, per-fold CV scores, significance tables, SHAP values and figures.</li></ul><p>Cross-validated R² (CatBoost): 0.883 ± 0.073 (η), 0.970 ± 0.026 (K<sub>L</sub>a). Web tool: https://saiflearn0.github.io/vts-screening-tool/</p>",
+  "creators": [
+    {
+      "name": "Rahman, Saif Ul",
+      "affiliation": "University of Science and Technology Beijing"
+    },
+    {
+      "name": "Guo, Shaomin",
+      "affiliation": "University of Science and Technology Beijing"
+    },
+    {
+      "name": "Rony, Md Rakib Hasan",
+      "affiliation": "University of Science and Technology Beijing"
+    },
+    {
+      "name": "Qiu, Xiaojian",
+      "affiliation": "University of Science and Technology Beijing"
+    },
+    {
+      "name": "Li, Zifu",
+      "affiliation": "University of Science and Technology Beijing"
+    }
+  ],
+  "keywords": [
+    "vacuum thermal stripping",
+    "ammonia recovery",
+    "machine learning",
+    "CatBoost",
+    "mass-transfer coefficient",
+    "KLa",
+    "SHAP",
+    "wastewater resource recovery"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://saiflearn0.github.io/vts-screening-tool/",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    }
+  ],
+  "notes": "Funding: National Key R&D Program of China (2024YFD1600201); National Natural Science Foundation of China (52261145693); National Environmental and Energy Science and Technology International Cooperation Base; Gates Foundation. Code (index.html, notebooks, scripts) is released under the MIT License; data, trained models and results under CC BY 4.0.",
+  "version": "1.0.0"
+}
