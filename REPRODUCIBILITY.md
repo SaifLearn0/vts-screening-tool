@@ -1,8 +1,6 @@
 # VTS-Screen: data, trained models and code
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-[![License: CC BY 4.0](https://img.shields.io/badge/data%20%26%20models-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23446948.svg)](https://doi.org/10.5281/zenodo.23446948)
 
 This file documents the data, models and code in this repository. The web tool itself is `index.html`; see `README.md`.
 
